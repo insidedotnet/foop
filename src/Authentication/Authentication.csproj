@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NodaTime" Version="3.1.6" />
+        <PackageReference Include="LanguageExt.Core" Version="4.4.0" />
+        <PackageReference Include="LanguageExt.Rx" Version="4.4.0" />
+        <PackageReference Include="ReactiveMarbles.Extensions" Version="1.0.4" />
+        <PackageReference Include="Rocket.Surgery.Airframe.Core" Version="0.10.1" />
+    </ItemGroup>
+</Project>
